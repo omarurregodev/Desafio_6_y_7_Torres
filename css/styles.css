@@ -157,8 +157,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 75vh;
+    height: auto;
     background-color: rgba(0,0,0,0.6);
+    padding-top: 15vh;
+    padding-bottom: 10vh;
 }
 
 .formCostume {
@@ -171,10 +173,30 @@ body {
     justify-content: center;
 }
 
-.tituloContacto {
+.tituloTrabaja {
     color: #EEEEEE;
 }
 
 .form-label {
     color: #EEEEEE;
+}
+
+.tituloContacto {
+    color: #EEEEEE;
+}
+
+.formCostumeContacto {
+    padding-top: 20px;
+}
+
+.formContacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2vh;
+}
+
+.content {
+    padding-top: 5vh;
+    padding-bottom: 10vh;
 }

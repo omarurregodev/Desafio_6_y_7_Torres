@@ -158,8 +158,23 @@ body {
     align-items: center;
     justify-content: center;
     height: 75vh;
+    background-color: rgba(0,0,0,0.6);
 }
 
-.formCostumer {
+.formCostume {
+    padding-top: 20px;
+}
 
+.centradoForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloContacto {
+    color: #EEEEEE;
+}
+
+.form-label {
+    color: #EEEEEE;
 }
